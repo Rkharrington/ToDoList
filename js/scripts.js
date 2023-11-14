@@ -20,7 +20,7 @@ function newItem(){
 
     // Add 'X' delete button
     let crossOutButton = $('<crossOutButton></crossOutButton>');
-    deleteButton.append(document.createTextNode('X'));
+    crossOutButton = $('<crossOutButton></crossOutButton>');
     li.append(crossOutButton);
 
     crossOutButton.on('click', deleteListItem);
